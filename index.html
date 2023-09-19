@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <ul>
                 <li><a href="index.html" class="active">HOME</a></li>
                 <li><a href="blog.html">BLOG</a></li>
@@ -18,26 +18,26 @@
     </header>
 
     <main>
-        <section class="first-sec">
-            <h1>The Box Model, Box-sizing & Box-shadow</h1>
+        <h1 class="main-heading">The Box Model, Box-sizing & Box-shadow</h1>
+        <section class="first-sec container">
             <h2 class="heading">Exerscise One</h2>
             <div class="box">
 
             </div>
             <ul>
-                <li><span class="content"></span><span>#99D8CA</span></li>
-                <li><span class="padding"></span><span>#0D1430</span></li>
-                <li><span class="border"></span><span>#90FFA9</span></li>
-                <li><span class="margin"></span><span>#5873E2</span></li>
+                <li><span class="circle-box content"></span><span class="name">#99D8CA</span></li>
+                <li><span class="circle-box padding"></span><span class="name">#0D1430</span></li>
+                <li><span class="circle-box border"></span><span class="name">#90FFA9</span></li>
+                <li><span class="circle-box margin"></span><span class="name">#5873E2</span></li>
             </ul>
         </section>
 
         <hr>
 
-        <section class="second-sec">
+        <section class="second-sec container">
             <div class="parent">
                 <h2 class="heading">Exercise Two</h2>
-                <div class="child">
+                <div class="child container border-box">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -47,7 +47,7 @@
             <hr>
 
             <div class="parent">
-                <div class="child">
+                <div class="child container border-box">
                     <span class="border border-box"></span>
                     <span class="border border-box"></span>
                     <span class="border border-box"></span>
